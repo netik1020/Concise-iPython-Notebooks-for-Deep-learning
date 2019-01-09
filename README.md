@@ -4,7 +4,7 @@ This github repository is a collection of [iPython notebooks](https://ipython.or
 
 The notebooks meant for processing/ understanding texts deals with problems like:
 
-1.	Basic entity extraction from text using [Named Entity Recognition](./Ner_tagger/) and tagging the text using [POS taggers](./POS Tagger/).
+1.	Basic entity extraction from text using [Named Entity Recognition](./NER_tagger/) and tagging the text using [POS taggers](./POS_Tagger/).
 
 2.	[Topic modelling using LDA](./Miscellaneous/topic_modeling.ipynb) and [converting pdf documents to readable text format](./Miscellaneous/pdf_To_doc.ipynb) in python.
 
