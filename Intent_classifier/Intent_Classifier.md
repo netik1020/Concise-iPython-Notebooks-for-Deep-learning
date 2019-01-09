@@ -14,7 +14,7 @@ Chatbot reply ->	Some of the grocery store around you are GROCERY_1, address …
 
 To understand the intent of an user query, we need to train a model to classify requests into intents using a ML algorithm, over the sentences transformed to vectors using methods like TF-IDF, word2Vec, GloVe. First, we convert sentences into array of numbers(vector).
 
-[!General flow of intent classification, setences->vectors->model](./Intent_classification.png)
+![General flow of intent classification, setences->vectors->model](./Intent_classification.png?raw=true "General flow of intent classification, setences->vectors->model")
 
 Tf-Idf: Give each word in sentence a number depending upon how many times that word occurs in that sentence and also upon the document. For words occurring many times in a sentence and not so many occurrences in document will have high value.	
 
