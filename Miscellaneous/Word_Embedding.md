@@ -44,11 +44,11 @@ FastText embedding file can be downloaded from ->  [https://fasttext.cc/docs/en/
 
 Some of the simple ways for getting embedding of components formed by words like phrases, sentences, or documents are:
 
->	Get the mean (average) of the word embeddings of the words forming that component.
+1.	Get the mean (average) of the word embeddings of the words forming that component.
 
->	Concatenate the word embeddings of the words of the component. This method may not be very useful since it creates very large sized vectors, as the sequence length increases.
+2.	Concatenate the word embeddings of the words of the component. This method may not be very useful since it creates very large sized vectors, as the sequence length increases.
 
->	Store and use different distribution (max, min, avg) of the word embeddings of the words forming that component.
+3.	Store and use different distribution (max, min, avg) of the word embeddings of the words forming that component.
 
 There is also an approach known as ‘BERT’ to get sentence embedding, which is explained more [here].
 
