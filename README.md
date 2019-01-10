@@ -36,21 +36,21 @@ Standard. Python.
 
 1.	[POS tagger](./POS_Tagger/) – POS tagging is to find the part-of-speech tag of the words in the sentence. The tags of the words can be passed as information to neural networks. 
 
-1.1.	[NLTK POS tagger](./POS_Tagger/POSTagger_NLTK.ipynb) – Using NLTK package to perform the POS tagging.
+  1.1.	[NLTK POS tagger](./POS_Tagger/POSTagger_NLTK.ipynb) – Using NLTK package to perform the POS tagging.
 
-1.2.	[Stanford POS tagger](./POS_Tagger/POSTagger_Stanford_NLTK.ipynb) – Using pre-trained model of Stanford for POS tagging.
+  1.2.	[Stanford POS tagger](./POS_Tagger/POSTagger_Stanford_NLTK.ipynb) – Using pre-trained model of Stanford for POS tagging.
 
 2.	[NER tagger](./NER_tagger/) – NER tagging or Named Entity Recognition is to find some common entities in text like name, place, etc. or more subject dependent entity like years of experience, skills, etc. can all be entities while parsing a resume. NER are generally used to find some important words in the document and one can train their own document specific NER tagger.
 
-2.1.	[Stanford NER tagger](./NER_tagger/NER_stanford_NLTK.ipynb) – Pre-trained NER provided by the Stanford libraries for entities – Person, organization, location.
+  2.1.	[Stanford NER tagger](./NER_tagger/NER_stanford_NLTK.ipynb) – Pre-trained NER provided by the Stanford libraries for entities – Person, organization, location.
 
-2.2.	Self-trained keras model – An example of training your own NER model.
+  2.2.	Self-trained keras model – An example of training your own NER model.
 
 3.	[Text Classifier](./Text_Classification/) – Have shown examples of different models to classify IMDB dataset . Text classifiers are very useful in tasks like passing queries to relevant department, in understanding customer review like in case of this dataset. 
 
-3.1.	[Text_classifier](./Text_Classification/classification_imdb.ipynb) – Performs text classification by using different architecture/ layers like GRU, LSTM, Sequence-self-attention, multi-head-attention, global max pooling and global average pooling. Different combinations of above layers can be used by passing arguments to a function to train the different models. GloVe and FastText embeddings have been experimented with.
+  3.1.	[Text_classifier](./Text_Classification/classification_imdb.ipynb) – Performs text classification by using different architecture/ layers like GRU, LSTM, Sequence-self-attention, multi-head-attention, global max pooling and global average pooling. Different combinations of above layers can be used by passing arguments to a function to train the different models. GloVe and FastText embeddings have been experimented with.
 
-3.2.	[Text_Classifer_2](./Text_Classification/self_Attn_on_seperate_fets_of_2embds.ipynb) – Here GloVe and FastText embeddings have been used as different features and there features are concatenated just before the dense layers. The final f1 score (90.5) for this notebook is highest among all the methods. 
+  3.2.	[Text_Classifer_2](./Text_Classification/self_Attn_on_seperate_fets_of_2embds.ipynb) – Here GloVe and FastText embeddings have been used as different features and there features are concatenated just before the dense layers. The final f1 score (90.5) for this notebook is highest among all the methods. 
 
 4.	 [Relation Extraction](./Semantic_Relation_Extraction/) – Data from SemEval_task8 is used to show an example of finding relations between two entities in a sentence. A keras model is built with concatenation of RNN features, self-attention features and max pooled features of the entities in the sentence.
 
@@ -58,12 +58,12 @@ Standard. Python.
 
 6.	[Miscellaneous](./Miscellaneous/) –
 
-6.1.	[PDF to Doc](./Miscellaneous/pdf_To_doc.ipynb) – a very useful tool to read the pdf documents in python. PDFminer package is used here.
+  6.1.	[PDF to Doc](./Miscellaneous/pdf_To_doc.ipynb) – a very useful tool to read the pdf documents in python. PDFminer package is used here.
 
-6.2.	[RegEx](./Miscellaneous/common_regex.md) – Some powerful and commonly used Regular Expressions.
+  6.2.	[RegEx](./Miscellaneous/common_regex.md) – Some powerful and commonly used Regular Expressions.
 
-6.3.	[Embeddings](./Miscellaneous/Word_Embedding.md) – A document going through different embeddings including sentence embedding.
+  6.3.	[Embeddings](./Miscellaneous/Word_Embedding.md) – A document going through different embeddings including sentence embedding.
 
-6.4. [Topic Modelling](./Miscellaneous/topic_modeling.ipynb) – Topic modelling in text processing is to cluster document into topics according to the word frequencies, or basically, sentences in the document. Each topic are dominated by certain words which can also be extracted. Here topic modelling is done using LDA from sklearn and genism packages.
+  6.4. [Topic Modelling](./Miscellaneous/topic_modeling.ipynb) – Topic modelling in text processing is to cluster document into topics according to the word frequencies, or basically, sentences in the document. Each topic are dominated by certain words which can also be extracted. Here topic modelling is done using LDA from sklearn and genism packages.
 
 
