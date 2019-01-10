@@ -34,11 +34,11 @@ Standard. Python.
 
 ### Text
 
-1.	[POS tagger](./POS Tagger/) – POS tagging is to find the part-of-speech tag of the words in the sentence. The tags of the words can be passed as information to neural networks. 
+1.	[POS tagger](./POS_Tagger/) – POS tagging is to find the part-of-speech tag of the words in the sentence. The tags of the words can be passed as information to neural networks. 
 
-1.1.	[NLTK POS tagger](./POS Tagger/POSTagger_NLTK.ipynb) – Using NLTK package to perform the POS tagging.
+1.1.	[NLTK POS tagger](./POS_Tagger/POSTagger_NLTK.ipynb) – Using NLTK package to perform the POS tagging.
 
-1.2.	[Stanford POS tagger](./POS Tagger/POSTagger_Stanford_NLTK.ipynb) – Using pre-trained model of Stanford for POS tagging.
+1.2.	[Stanford POS tagger](./POS_Tagger/POSTagger_Stanford_NLTK.ipynb) – Using pre-trained model of Stanford for POS tagging.
 
 2.	[NER tagger](./NER_tagger/) – NER tagging or Named Entity Recognition is to find some common entities in text like name, place, etc. or more subject dependent entity like years of experience, skills, etc. can all be entities while parsing a resume. NER are generally used to find some important words in the document and one can train their own document specific NER tagger.
 
