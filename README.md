@@ -50,7 +50,7 @@ Standard. Python.
 
 3.1.	[Text_classifier](./Text_Classification/classification_imdb.ipynb) – Performs text classification by using different architecture/ layers like GRU, LSTM, Sequence-self-attention, multi-head-attention, global max pooling and global average pooling. Different combinations of above layers can be used by passing arguments to a function to train the different models. GloVe and FastText embeddings have been experimented with.
 
-3.2.	Text_Classifer_2 – Here GloVe and FastText embeddings have been used as different features and there features are concatenated just before the dense layers.\
+3.2.	[Text_Classifer_2](./Text_Classification/self_Attn_on_seperate_fets_of_2embds.ipynb) – Here GloVe and FastText embeddings have been used as different features and there features are concatenated just before the dense layers. The final f1 score (90.5) for this notebook is highest among all the methods. 
 
 4.	 [Relation Extraction](./Semantic_Relation_Extraction/) – Data from SemEval_task8 is used to show an example of finding relations between two entities in a sentence. A keras model is built with concatenation of RNN features, self-attention features and max pooled features of the entities in the sentence.
 
