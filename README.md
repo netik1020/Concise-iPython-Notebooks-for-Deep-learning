@@ -54,7 +54,7 @@ Standard. Python.
 
 4.	 [Relation Extraction](./Semantic_Relation_Extraction/) – Data from SemEval_task8 is used to show an example of finding relations between two entities in a sentence. A keras model is built with concatenation of RNN features, self-attention features and max pooled features of the entities in the sentence.
 
-5.	[Intent Classifier](./Intent_classifier/) – Intent classifier is performed on a dataset containing 7 different intents. This is an example for how deep learning models can be successfully used to understand the intent of a text query. Customer intent can be determined and then a prewritten text can be generated to answer the user query. A simple yet effective chat-bot can be built this way, determining on the different intents possible and data available for each of those intients.
+5.	[Intent Classifier](./Intent_classifier/) – Intent classifier is performed on a dataset containing 7 different intents. This is an example for how deep learning models can be successfully used to understand the intent of a text query. Customer intent can be determined and then a prewritten text can be generated to answer the user query. A simple yet effective chat-bot can be built this way, depending on the different intents possible and data available for each of those intients.
 
 6.	[Miscellaneous](./Miscellaneous/) –
 
