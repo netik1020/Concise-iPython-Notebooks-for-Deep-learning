@@ -6,9 +6,15 @@ In this notebook, relation between two words in sentence is to be found. A simpl
 
 Relation extraction is a part of Natural Language Understanding and can be used to extract useful features from the text corpus. It is used to understand the relations among entities in a sentence. 
 
-## Packages used - 
+## Packages used 
 
 keras, sklearn, tensorlfow, numpy, regex, pickle, nltk
+
+## Dataset
+
+For performing the task of semantic relation extraction, dataset for SemEval-2010 task 8, was used. The dataset contains sentences, with both the entities marked and the corresponding relation for them.
+
+More about the dataset can be found [here](http://www.aclweb.org/anthology/S10-1006).
 
 ## Model Architecture
 
