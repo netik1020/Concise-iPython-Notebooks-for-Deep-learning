@@ -3,8 +3,8 @@
 Image classification is a task of classifying images into two or more classes. A simple yet powerful neural network models are built to classify the images.
 
 Two different models are compared here with the only difference of snapshot training being used in 2nd classifier model:
-1. [skin_cancer_classification_1](./skin_cancer_classification_1.ipynb) 
-2. [skin_cancer_classification_2](./skin_cancer_classification_2.ipynb) 
+ 1. [skin_cancer_classification_1](./skin_cancer_classification_1.ipynb) 
+ 2. [skin_cancer_classification_2](./skin_cancer_classification_2.ipynb) 
 
 ## Packages used
 
@@ -20,7 +20,7 @@ For performing the task of Image Classification a medical dataset, in which we n
 
 A Convolution based model is used here to classify the images.
 
-There are 6 convolution lyers with kernel size of (1,1) and number of kernels increases from 16 to 512.
+There are 6 convolution layers with kernel size of (1,1) and number of kernels increases from 16 to 512.
 
 Each Convolution layer is followed by batch normaliztion layer and Leaky ReLU activation.
 
