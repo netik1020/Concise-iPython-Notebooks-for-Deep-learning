@@ -53,18 +53,18 @@ Standard. Python.
 3.	[Intent Classifier](./Intent_classifier/) – Intent classifier is performed on a dataset containing 7 different intents. This is an example for how deep learning models can be successfully used to understand the intent of a text query. Customer intent can be determined and then a prewritten text can be generated to answer the user query. A simple yet effective chat-bot can be built this way, depending on the different intents possible and data available for each of those intients.
 
 4.	[Miscellaneous](./Miscellaneous/) –
-
+    
     4.1.	[POS tagger](./Miscellaneous/POS_Tagger/) – POS tagging is to find the part-of-speech tag of the words in the sentence. The tags of the words can be passed as information to neural networks. 
 
-        4.1.1.	[NLTK POS tagger](./Miscellaneous/POS_Tagger/POSTagger_NLTK.ipynb) – Using NLTK package to perform the POS tagging.
+      4.1.1.	[NLTK POS tagger](./Miscellaneous/POS_Tagger/POSTagger_NLTK.ipynb) – Using NLTK package to perform the POS tagging.
   
-        4.1.2.	[Stanford POS tagger](./Miscellaneous/POS_Tagger/POSTagger_Stanford_NLTK.ipynb) – Using pre-trained model of Stanford for POS tagging.
+      4.1.2.	[Stanford POS tagger](./Miscellaneous/POS_Tagger/POSTagger_Stanford_NLTK.ipynb) – Using pre-trained model of Stanford for POS tagging.
 
     4.2.	[NER tagger](./Miscellaneous/NER_tagger/) – NER tagging or Named Entity Recognition is to find some common entities in text like name, place, etc. or more subject dependent entity like years of experience, skills, etc. can all be entities while parsing a resume. NER are generally used to find some important words in the document and one can train their own document specific NER tagger.
 
-        4.2.1.	[Stanford NER tagger](./Miscellaneous/NER_tagger/NER_stanford_NLTK.ipynb) – Pre-trained NER provided by the Stanford libraries for entities – Person, organization, location.
+      4.2.1.	[Stanford NER tagger](./Miscellaneous/NER_tagger/NER_stanford_NLTK.ipynb) – Pre-trained NER provided by the Stanford libraries for entities – Person, organization, location.
   
-        4.2.2.	Self-trained keras model – An example of training your own NER model. (To be done)
+      4.2.2.	Self-trained keras model – An example of training your own NER model. (To be done)
 
     4.3.	[PDF to Doc](./Miscellaneous/pdf_To_doc.ipynb) – a very useful tool to read the pdf documents in python. PDFminer package is used here.
 
