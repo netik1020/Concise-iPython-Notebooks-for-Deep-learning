@@ -7,8 +7,8 @@ The notebooks having examples of image  processing deals with problems like:
 1. [Image Segmentation](./Image_Segmentation) to segment (find the boundary of) certain object in an image, was performed using U-Net architecture of the auto encoder model. 
 
 2. Object Detection was done using [Single Shot MultiBox Detector (SSD) model](./SSD).
-
-3. [Image Classification](./Image_Classification) was done using convolutional network.
+./Image_Classification
+3. [Image Classification](./Image_Classifier) was done using convolutional network.
 
 The notebooks meant for processing/ understanding texts deals with problems like:
 
@@ -86,10 +86,10 @@ Standard. Python.
 
 2. [Single Shot MultiBox Detector (SSD) model](./SSD) – 
 
-3. [Image Classification](./Image_Classification) – Image classification is a task of classifying images into two or more classes. A simple yet powerful neural network models are built to classify the images.
+3. [Image Classification](./Image_Classifier) – Image classification is a task of classifying images into two or more classes. A simple yet powerful neural network models are built to classify the images.
 
-    3.1     [skin_cancer_classification_1](./Image_Classification/skin_cancer_classification_1.ipynb) - A deep neural network model, with convolution layers for feature extraction.
+    3.1     [skin_cancer_classification_1](./Image_Classifier/skin_cancer_classification_1.ipynb) - A deep neural network model, with convolution layers for feature extraction.
     
-    3.2.    [skin_cancer_classification_2](./Image_Classification/skin_cancer_classification_2.ipynb) - Model is same as the skin_cancer_classification_1, only with the addition of cosine annealed learning rate during the training. 
+    3.2.    [skin_cancer_classification_2](./Image_Classifier/skin_cancer_classification_2.ipynb) - Model is same as the skin_cancer_classification_1, only with the addition of cosine annealed learning rate during the training. 
 
 
