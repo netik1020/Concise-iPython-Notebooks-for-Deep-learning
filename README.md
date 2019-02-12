@@ -24,7 +24,7 @@ The notebooks meant for processing/ understanding texts deals with problems like
 
 ## Motivation
 
-I wanted to have this reposisitory for everyone with good understanding of theory in Deep Learning, to have easy to read reference for some common tasks in Deep Learning.
+I wanted to have this repository for everyone with good understanding of theory in Deep Learning, to have easy to read reference for some common tasks in Deep Learning.
 
 ## Packages used
 
