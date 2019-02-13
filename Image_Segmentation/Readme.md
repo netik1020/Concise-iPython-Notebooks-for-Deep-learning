@@ -18,9 +18,9 @@ For showing comparison study in the task of Image Segmentation, a dataset where 
 
 There are total 267 CT scans of lungs corresponding with the manually labelled segmented masks.
 
-![Example Image](./Image_eg.PNG)  
+![Example Image](../Images/Image_eg.PNG)  
 
-![Example Mask](./mask_eg.PNG)
+![Example Mask](../Images/mask_eg.PNG)
 
 [Here](https://www.kaggle.com/kmader/finding-lungs-in-ct-data/home) is the link to the dataset.
 
@@ -36,11 +36,11 @@ In the decoder it has 4 convolution layers of same feature sizes as the encoder 
 
 The last layer  gives an image of same size with each pixel either as 0 or 1.
 
-![Model Architecture](./model_plot_conv.png)
+![Model Architecture](../Images/model_plot_conv.png)
 
 In the models using inception blocks each block of convolution- batch normaliztion - Leaky Relu is replaced with an inception block.
 
-![Inception Block](./Incp_block.png)
+![Inception Block](../Images/Incp_block.png)
 
 ## Comparison 
 
