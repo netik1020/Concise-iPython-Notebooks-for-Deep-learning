@@ -28,3 +28,4 @@ Finally multiple fully-connected layers are used to classify the incoming query 
 
 Adam optimizer and sparse categorical crossentropy loss are used.
 
+![Model Architecture](../Images/model_semeval.png)
