@@ -24,3 +24,5 @@ Features are enriched with concatenating Self-attended features of the RNN outpu
 Finally multiple fully-connected layers are used to classify the incoming query into one of the possible intents.
 
 Adam optimizer and sparse categorical crossentropy loss are used.
+
+![Model Architecture](../Images/model_intent.png)
