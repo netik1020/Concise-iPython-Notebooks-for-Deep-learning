@@ -30,13 +30,13 @@ Finally dense layers are used to classify the features found from the convolutio
 
 Categorical Cross entropy is used as the loss function and adam is the optimizer.
 
-![Model Architecture](./model_plot.png)
+![Model Architecture](../Images/model_plot.png)
 
 ## Comparison 
 
 Here are the training curves for both the classifiers.
  
-![Training accuracy Curve](./training_acc.PNG)   ![Training Loss Curve](./training_loss.PNG)
+![Training accuracy Curve](../Images/training_acc.PNG)   ![Training Loss Curve](../Images/training_loss.PNG)
 
 Orange curve is for the model without cyclic learning rate. The blue curve representing the model with cosine annealed learning rate, deviates from the local minima during the start of each cycle (when learning rate is increased to initial, maximum value). 
 
