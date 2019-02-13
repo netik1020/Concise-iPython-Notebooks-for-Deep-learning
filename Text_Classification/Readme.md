@@ -10,6 +10,8 @@ In this notebook, we need to classify user comments into positive(1) or negative
 
 2. The [second notebook](self_Attn_on_seperate_fets_of_2embds.ipynb) have the best result on the test dataset for my testings. These model uses Glove and FastText embeddings as seperate features in upper layers, and the features extracted from these embeedings using SpatialDropout, GRU, Sequence self-attention and Global pooling layers are concatenated and passed to dense layers for classification.
 
+![Model Architecture](../Images/model_imdb_2.png)
+
 ## Packages used 
 
 keras, sklearn, tensorlfow, numpy, keras_self_attention, keras_multi_head
