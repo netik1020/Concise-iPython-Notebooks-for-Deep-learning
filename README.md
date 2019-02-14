@@ -92,4 +92,8 @@ Standard. Python.
     
     3.2.    [skin_cancer_classification_2](./Image_Classifier/skin_cancer_classification_2.ipynb) - Model is same as the skin_cancer_classification_1, only with the addition of cosine annealed learning rate during the training. 
 
+## Reproducibility
 
+To run the code in local machine, requried packasges will need to be installed and the dataset must be downloaded from the links provided.
+
+If someone chose to run the programs online, [google colab](https://colab.research.google.com/notebooks/welcome.ipynb) provides free GPU access. Also [this](https://www.kaggle.com/general/51898) link can be useful for easily using kaggle datasets in googlecolab environment.
