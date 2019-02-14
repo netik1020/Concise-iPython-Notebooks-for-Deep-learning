@@ -7,7 +7,7 @@ The notebooks having examples of image  processing deals with problems like:
 1. [Image Segmentation](./Image_Segmentation) to segment (find the boundary of) certain object in an image, was performed using U-Net architecture of the auto encoder model. 
 
 2. Object Detection was done using [Single Shot MultiBox Detector (SSD) model](./SSD).
-./Image_Classification
+
 3. [Image Classification](./Image_Classifier) was done using convolutional network.
 
 The notebooks meant for processing/ understanding texts deals with problems like:
@@ -84,7 +84,7 @@ Standard. Python.
     
     1.3.    [lungs_incp_unet_snapshot](./Image_Segmentation/lungs_incp_unet_snapshot.ipynb) - Model exactly same as the lungs_incp_unet model with the addition of cosine annealed Learning rate.
 
-2. [Single Shot MultiBox Detector (SSD) model](./SSD) – 
+2. [Single Shot MultiBox Detector (SSD) model](./SSD) – An example implementation of the [SSD model](https://arxiv.org/abs/1512.02325) is shown for objecct detection in pascal VOC dataset.
 
 3. [Image Classification](./Image_Classifier) – Image classification is a task of classifying images into two or more classes. A simple yet powerful neural network models are built to classify the images.
 
