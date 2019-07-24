@@ -28,11 +28,11 @@ I wanted to have this repository for everyone with good understanding of theory 
 
 ## Packages used
 
-Common Packages – [Tensorflow](https://www.tensorflow.org/), [keras](https://keras.io/), [sklearn](https://scikit-learn.org/), [numpy](http://www.numpy.org/), [pandas](https://pandas.pydata.org/),
+Common Packages – [Tensorflow](https://www.tensorflow.org/), [Tensorboard](https://www.tensorflow.org/guide/summaries_and_tensorboard), [keras](https://keras.io/), [sklearn](https://scikit-learn.org/), [numpy](http://www.numpy.org/), [pandas](https://pandas.pydata.org/), [mlflow](https://www.mlflow.org/docs/latest/index.html)
 
 Text Based Packages – [NLTK](https://www.nltk.org/), [genism](https://pypi.org/project/gensim/), [pdfminer](https://pypi.org/project/pdfminer/), [keras_self_attention](https://pypi.org/project/keras-self-attention/), [keras_multi_head](https://pypi.org/project/keras-multi-head/)
 
-Image Based Packages – [openCV](https://pypi.org/project/opencv-python/), [matplotlib](https://matplotlib.org/),
+Image Based Packages – [openCV](https://pypi.org/project/opencv-python/), [matplotlib](https://matplotlib.org/)
 
 ## Code style
 
@@ -83,6 +83,8 @@ Standard. Python.
     1.2.    [lungs_incp_unet](./Image_Segmentation/lungs_incp_unet.ipynb) - Here convolution layers are replaced with inception blocks.
     
     1.3.    [lungs_incp_unet_snapshot](./Image_Segmentation/lungs_incp_unet_snapshot.ipynb) - Model exactly same as the lungs_incp_unet model with the addition of cosine annealed Learning rate.
+    
+    1.4.    [lungs_incp_unet_snapshot_mlflow](./Image_Segmentation/seg_mlflow/) - Contains files for lungs_incp_unet_snapshot model deployed using mlflow workflow.
 
 2. [Single Shot MultiBox Detector (SSD) model](./SSD) – An example implementation of the [SSD model](https://arxiv.org/abs/1512.02325) is shown for objecct detection in pascal VOC dataset.
 
