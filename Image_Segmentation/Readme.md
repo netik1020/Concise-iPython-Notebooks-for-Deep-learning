@@ -7,6 +7,7 @@ Here 3 different models are compared:
   1.  [lungs_conv_unet](./lungs_conv_unet.ipynb) - An autoencoder model with U-Net architecture is used.
   2.  [lungs_incp_unet](./lungs_incp_unet.ipynb) - Model same as above except the convolution layers replaced with inception blocks.
   3.  [lungs_incp_unet_snapshot](./lungs_incp_unet_snapshot.ipynb) - Model exactly same as the lungs_incp_unet model with the addition of cosine annealed Learning rate. 
+  4. [lungs_incp_unet_snapshot_mlflow](./seg_mlflow/) - Contains files for lungs_incp_unet_snapshot deployed using mlflow workflow.
 
 ## Packages used
 
