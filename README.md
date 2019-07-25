@@ -10,6 +10,8 @@ The notebooks having examples of image  processing deals with problems like:
 
 3. [Image Classification](./Image_Classifier) was done using convolutional network.
 
+4. The task of finding duplicate images among the given set of images is done [here](./Duplicate_images).
+
 The notebooks meant for processing/ understanding texts deals with problems like:
 
 1.	Basic entity extraction from text using [Named Entity Recognition](./Miscellaneous/NER_tagger/) and tagging the text using [POS taggers](./Miscellaneous/POS_Tagger/).
@@ -93,6 +95,8 @@ Standard. Python.
     3.1     [skin_cancer_classification_1](./Image_Classifier/skin_cancer_classification_1.ipynb) - A deep neural network model, with convolution layers for feature extraction.
     
     3.2.    [skin_cancer_classification_2](./Image_Classifier/skin_cancer_classification_2.ipynb) - Model is same as the skin_cancer_classification_1, only with the addition of cosine annealed learning rate during the training. 
+
+4. [Finding Duplicates](./Duplicate_images) - Notebook to find duplicate images by comparing image vectors of the image using [Locality Sensitivity Hashing](https://en.wikipedia.org/wiki/Locality-sensitive_hashing) for efficient search.
 
 ## Reproducibility
 
