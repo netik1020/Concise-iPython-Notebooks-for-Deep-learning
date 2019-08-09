@@ -24,6 +24,8 @@ The notebooks meant for processing/ understanding texts deals with problems like
 
 5.	[Intent classifier](./Intent_classifier/) was made to classify incoming queries into one of the intents. This can be used to understand the type of query a user is making in a chat-bot application. Intent can be to book a cab, or to find a restaurant, etc.
 
+[A demo program](./House_price_prediction_dash/) for showing use of machine learning to produce results for different input values is done. This work is done for purpose of demo, which allows the user to change the features of the model using an interactive web app and the output is produced accordingly and shown in the web app.
+
 ## Motivation
 
 I wanted to have this repository for everyone with good understanding of theory in Deep Learning, to have easy to read reference for some common tasks in Deep Learning.
